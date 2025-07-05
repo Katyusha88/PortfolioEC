@@ -11,10 +11,22 @@ body {
     border: red 2px solid;
 }
   
+/* дата создания */
+#year, #contacts, #websiteBox, #application, #aboutMe{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px; 
+    font-family: 'Play', sans-serif;
+  }
+  
 /* logo and menu */
 .header .aboutMe {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 .nav-item{
     margin: 40px;
@@ -62,53 +74,60 @@ body {
     color: white;
     font-family: 'Play', sans-serif;
 }
-  .box{
+.box{
     display: flex;
     flex-direction: row;
     padding: 12px;    
+}
+.boxSm{
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+.text{
+    max-width: 1000px;
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+}
+#certificate, #resume{
+    font-size: 25px;
+    color: rgb(249, 248, 248);
+    text-decoration: none;
+}
+#certificate:hover, #resume:hover{
+    color: gold;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.iAm {
+    margin-right: 100px;
+}
+#iAm{
+    /* margin-left: 25px; */
+    border-radius: 15%;
+    border: black solid 2px ;
+    box-shadow: 3px 3px 3px rgba(255, 217, 0, 0.774) ;
     }
-    .boxSm{
-        font-family: 'Play', sans-serif;
-        margin-top: 20px;
-        margin-bottom: 20px;   
-    }
-    .text{
-        max-width: 1000px;
-        font-family: 'Play', sans-serif;
-      font-size: 25px;
-      line-height: 1.5;
-      color: white;
-    }
-    #certificate, #resume{
-        font-size: 25px;
-        color: rgb(249, 248, 248);
-        text-decoration: none;
-    }
-    #certificate:hover, #resume:hover{
-        color: gold;
-    }
-    #container{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    .iAm {
-        margin-right: 100px;
-    }
-    #iAm{
-        /* margin-left: 25px; */
-        border-radius: 15%;
-        border: black solid 2px ;
-        box-shadow: 3px 3px 3px rgba(255, 217, 0, 0.774) ;
-    }
-    .icons{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-    }
-    .text div {
-      display: inline-block;
-    }
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.text div {
+    display: inline-block;
+}
+
+/* hr */
+hr{
+    border:  2px solid gold;
+    margin: 10px;
+} 
+  
     
     
   
