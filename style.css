@@ -3,12 +3,19 @@ body {
     margin: 0; 
     font:normal 75% Arial, Helvetica, sans-serif; 
 }
+.header, .footer, .aboutMe {
+    display: flex;
+    justify-content: center;
+}
 .wrapper {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 1440px;
+    width: 1440px;
     border: red 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
 /* дата создания */
@@ -17,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     background: black;
-    color: white;
+    color: whitesmoke;
     font-size: 16px;
     padding: 20px; 
     font-family: 'Play', sans-serif;
@@ -32,8 +39,9 @@ body {
     margin: 40px;
 }
 .collapse{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: end; */
+    /* justify-content: space-around; */
     font-family: 'Play', sans-serif;
     font-size: 35px;
 }
@@ -49,7 +57,7 @@ body {
     text-align: center;
 }
 .colorGold:hover {
-    color: white;
+    color: whitesmoke;
 }
   
 /* About me */
@@ -71,7 +79,7 @@ body {
     margin-top: 30px;
     /* margin-left: 25%; */
     padding: 20px;
-    color: white;
+    color: whitesmoke;
     font-family: 'Play', sans-serif;
 }
 .box{
@@ -87,6 +95,15 @@ body {
     flex-direction: row;
     justify-content: flex-end;
 }
+#certificateRu, #resumeRu {
+    margin-right: 100px;
+    border: 2px solid wheat;
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
 #certificate, #resume {
     margin-right: 100px;
     border: 2px solid wheat;
@@ -94,16 +111,19 @@ body {
     border-radius: 10%;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: whitesmoke;
 }
 .text{
     max-width: 1000px;
     font-family: 'Play', sans-serif;
     font-size: 25px;
     line-height: 1.5;
-    color: white;
+    color: whitesmoke;
 }
 #certificate:hover, #resume:hover{
+    color: gold;
+}
+#certificateRu:hover, #resumeRu:hover{
     color: gold;
 }
 #container{
@@ -117,34 +137,39 @@ body {
 #iAm{
     /* margin-left: 25px; */
     border-radius: 15%;
-    border: rgb(203, 45, 45) solid 2px ;
+    border: whitesmoke solid 2px ;
     box-shadow: 3px 3px 3px rgba(255, 217, 0, 0.774) ;
     }
 .icons{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    flex-direction: row; */
     margin-top: 30px;
 }
 .text div {
     display: inline-block;
+}
+.skill {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
 /* contact */
 #questionnaire{
     display: flex;
-    background: black;
-    color: white;
+    /* background: rgb(69, 17, 17); */
+    color: whitesmoke;
   }
   .questionnaire{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
   }
   #connection{
     margin-left: 100px;
     padding: 20px;  
   }
   form {
-    
     border: #f1c40f solid;
     width: 700px;
   }
@@ -184,7 +209,7 @@ body {
     padding: 10px 30px;
     position: relative;
     border: 2px solid #ffc107;
-    color: white;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     transition: .4s;
   }
@@ -215,9 +240,11 @@ body {
   }
   .border-button {
     position: relative;
-    color: white;
+    color: whitesmoke;
     background: none;
     font-weight: 300;
+    margin-left: 300px;
+    margin-top: 15px;
   }
   .border-button:before, .border-button:after {
     content: "";
@@ -230,15 +257,15 @@ body {
   .border-button:before {
     bottom: 0;
     left: 0;
-    border-left: 3px solid white;
-    border-top: 3px solid white;
+    border-left: 3px solid whitesmoke;
+    border-top: 3px solid whitesmoke;
     transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
   }
   .border-button:after {
     top: 0;
     right: 0;
-    border-right: 3px solid white;
-    border-bottom: 3px solid white;
+    border-right: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
     transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
   }
   .border-button:hover:before, 
@@ -257,11 +284,12 @@ body {
     background: rgba(255, 255, 255, .2);
   }
 
-  
+
 /* hr */
 hr{
     border:  2px solid gold;
     margin: 10px;
+    width: 95%;
 } 
   
     
