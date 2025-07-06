@@ -12,14 +12,14 @@ body {
     margin: 0;
     box-sizing: border-box;
     width: 1440px;
-    border: red 2px solid;
+    /* border: red 2px solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
   
 /* дата создания */
-#year, #contacts, #websiteBox, #application, #aboutMe{
+#year, #contacts, #websiteBox, #application, #aboutMe, #myProjects{
     position: relative;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
   }
   
 /* logo and menu */
-.header .aboutMe {
+.header, .aboutMe, .projects, footer {
     display: flex;
     flex-direction: column;
 }
