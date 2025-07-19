@@ -1,0 +1,49 @@
+@media all and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    .footer {
+        width: 480px;
+    }
+    .wrapper {
+        width: 480px;
+    }
+    hr {
+        width: 100%;
+    }
+    .questionnaire {
+    background-color: red;
+    }
+    #logo {
+    background-color: yellow;
+    display: flex;
+    align-items: flex-start;
+    width: 10%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        width: 767px;
+    }
+    .wrapper {
+        width: 767px;
+    }
+  
+}
+
+@media (max-width: 1023px) {
+        .wrapper {
+        width: 1023px;
+    }
+
+}
+
+@media (max-width: 1279px) {
+        .wrapper {
+        width: 1279px;
+    }
+
+    
+}

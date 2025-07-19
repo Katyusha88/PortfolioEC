@@ -19,7 +19,7 @@ body {
   
 /* дата создания */
 #year, #contacts, #websiteBox, #application, #aboutMe, #myProjects{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     background: black;
@@ -33,6 +33,10 @@ body {
 .header, .aboutMe, .projects, footer {
     display: flex;
     flex-direction: column;
+}
+nav {
+  width: 100%;
+  border: red 2px solid;
 }
 .nav-item{
     margin: 40px;
@@ -167,6 +171,23 @@ body {
 .skill {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* project */
+
+.allProjects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* border: red 2px solid; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project {
+ border: blue 2px solid;
+}
+.imgWeb {
+    border-radius: 25px;
 }
 
 
@@ -307,6 +328,12 @@ hr{
     margin: 10px;
     width: 95%;
 } 
+
+#year {
+  /* display: flex;
+  justify-content: center; */
+  border: red 2px solid;
+}
   
     
     
