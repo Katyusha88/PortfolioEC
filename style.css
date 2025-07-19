@@ -9,7 +9,7 @@ body {
 }
 .wrapper {
     padding: 0;
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
     width: 1440px;
     display: flex;
@@ -185,10 +185,13 @@ nav {
 }
 .project {
  border: blue 2px solid;
+ margin-bottom: 20px;
+ cursor: pointer;
 }
 .imgWeb {
     border-radius: 25px;
 }
+
 
 
 /* contact */
