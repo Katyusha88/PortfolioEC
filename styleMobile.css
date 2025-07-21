@@ -1,49 +1,58 @@
 @media all and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
-    .footer {
-        width: 480px;
-    }
+    
+}
+
+@media all and (max-width: 1279px) {
     .wrapper {
-        width: 480px;
-    }
-    hr {
-        width: 100%;
-    }
-    .questionnaire {
-    background-color: red;
-    }
-    #logo {
-    background-color: yellow;
-    display: flex;
-    align-items: flex-start;
-    width: 10%;
-
+        overflow: hidden;
+        width: 1220px;
     }
 }
 
-@media (max-width: 767px) {
-    .footer {
-        width: 767px;
+@media all and (max-width: 1023px) {
+.wrapper {
+    width: 970px;
     }
-    .wrapper {
-        width: 767px;
-    }
-  
+.navbar-collapse {
+    font-size: 28px;
+}
+.border-button {
+    margin-left: 160px;
+}
 }
 
-@media (max-width: 1023px) {
-        .wrapper {
-        width: 1023px;
+@media all and (max-width: 767px) {
+.wrapper {
+    width: 700px;
+    overflow: hidden;
     }
-
+.iAm {
+    height: 240px;
+}
+.box {
+    justify-content: center;
+}
+.icons {
+    flex-wrap: wrap;
+}
+form {
+    width: 550px;
+    margin-left: 35px;
+}
+.btn {
+    margin-left: 378px;
+}
+.border-button {
+    margin-left: 20px;
+}
+#logo {
+    margin-top: 12px;
+}
+#connection {
+    margin-left: 15px;
+}
 }
 
-@media (max-width: 1279px) {
-        .wrapper {
-        width: 1279px;
-    }
-
+@media all and (max-width: 480px) {
     
 }
