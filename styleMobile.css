@@ -1,14 +1,14 @@
 @media all and (max-width: 1279px) {
-    .wrapper {
-        overflow: hidden;
-        width: 1220px;
-    }
+.wrapper {
+    overflow: hidden;
+    width: 1220px;
+}
 }
 
 @media all and (max-width: 1023px) {
 .wrapper {
     width: 970px;
-    }
+}
 .navbar-collapse {
     font-size: 28px;
 }
@@ -21,7 +21,7 @@
 .wrapper {
     width: 700px;
     overflow: hidden;
-    }
+}
 .iAm {
     height: 240px;
 }
@@ -74,8 +74,8 @@ p {
     text-align: justify;
     margin: 20px;
 }
-#certificate, #resume {
-    margin: 0 49px;
+#certificate, #resumeRu {
+    margin-right: 20px;
 }
 .icons {
     display: flex;
@@ -117,7 +117,10 @@ textarea {
     margin-left: 50px;
 }
 .year {
-        margin: 0;
-        font-size: 16px;
+    margin: 0;
+    font-size: 16px;
+}
+.russia {
+    margin-left: 30px;
 }
 }

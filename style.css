@@ -177,7 +177,7 @@ nav {
     flex-direction: column;
 }
 #connection {
-    margin-left: 100px;
+    margin-left: 38px;
     padding: 20px;  
 }
 form {
@@ -192,8 +192,11 @@ form {
 #email {
     margin-left: 17px;
 }
+.russia {
+    margin-left: 52px;
+}
 .english {
-    margin-left: 62px;
+    margin-left: 63px;
 }
 .messages {
     padding: 5px;
