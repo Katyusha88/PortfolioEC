@@ -181,12 +181,11 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* border: red 2px solid; */
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .project {
- border: blue 2px solid;
+ /* border: blue 2px solid; */
  margin-bottom: 20px;
  cursor: pointer;
 }
@@ -329,18 +328,19 @@ nav {
 
 /* hr */
 hr{
-    border:  2px solid gold;
-    margin: 10px;
-    width: 95%;
+  border:  2px solid gold;
+  margin: 10px;
+  width: 95%;
 } 
 
-#year {
-  /* display: flex;
-  justify-content: center; */
-  /* border: red 2px solid; */
+ /* script */
+.newProject {
+  /* border: red solid 2px; */
+  box-shadow: 0px 0px 15px 15px rgba(245, 245, 245, 0.658);
+  border-radius: 26px;
+  /* width: 500px;
+  height: 300px; */
 }
-  
-    
     
   
   

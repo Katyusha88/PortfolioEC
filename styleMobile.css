@@ -1,7 +1,3 @@
-@media all and (max-width: 480px) {
-    
-}
-
 @media all and (max-width: 1279px) {
     .wrapper {
         overflow: hidden;
@@ -54,5 +50,74 @@ form {
 }
 
 @media all and (max-width: 480px) {
-    
+.wrapper {
+    width: 428px;
+    margin: auto;
+    overflow: hidden;
+}
+.nav-item {
+    margin: 0px;
+}
+.textTwo {
+    margin-left: 56px;
+}
+.box {
+    flex-direction: column;
+}
+#iAm {
+    margin: auto;
+    width: 230px;
+    height: 310px;
+}
+p {
+    font-size: 23px;
+    text-align: justify;
+    margin: 20px;
+}
+#certificate, #resume {
+    margin: 0 49px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill {
+    margin: 10px;
+}
+.imgWeb {
+    width: 400px;
+    height: 230px;
+}
+#questionnaire {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    width: 390px;
+    margin: auto;
+}
+.english {
+    margin-left: 30px;
+    margin-left: 30px;
+}
+input {
+    margin-left: 0px;
+    width: 320px;
+}
+.messages {
+    margin-left: 30px;
+}
+textarea {
+    width: 320px;
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.year {
+        margin: 0;
+        font-size: 16px;
+}
 }
