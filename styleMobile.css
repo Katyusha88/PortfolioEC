@@ -181,7 +181,7 @@ form {
     margin-right: 18px;
 }
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 .imgWeb {
     width: 270px;
@@ -209,6 +209,14 @@ textarea {
     width: 40px;
 }
 #logo {
-    margin-left: 12px;
+    margin-left: 8px;
+}
+.russia {
+    margin-left: 0px;
+    font-size: 16px;
+}
+#certificateRu, #resumeRu {
+    margin-right: 24px;
+    font-size: 16px;
 }
 }
