@@ -8,6 +8,7 @@
 @media all and (max-width: 1023px) {
 .wrapper {
     width: 970px;
+    overflow: hidden;
 }
 .navbar-collapse {
     font-size: 28px;
@@ -122,5 +123,92 @@ textarea {
 }
 .russia {
     margin-left: 30px;
+}
+}
+
+@media all and (max-width: 414px) {
+.wrapper {
+    width: 380px;
+    margin: auto;
+    overflow: hidden;
+}
+.titleText {
+    margin-top: 180px;
+}
+.word {
+    font-size: 44px;
+}
+.textTwo {
+    margin-left: 36px;
+}
+#iAm {
+    width: 220px;
+    height: 280px;
+}
+#certificate, #resume {
+    margin-right: 36px;
+}
+.imgWeb {
+    width: 360px;
+    height: 200px;
+}
+.messages {
+    margin-left: 20px;
+}
+.english {
+    margin-left: 20px;
+}
+form {
+    width: 370px;
+}
+}
+
+@media all and (max-width: 320px) {
+.wrapper {
+    width: 280px;
+    overflow: hidden;
+    margin: auto;
+}
+.word {
+    font-size: 36px;
+    margin-left: 5px;
+}
+.textTwo {
+    margin-left: 18px;
+}
+#certificate, #resume {
+    font-size: 20px;
+    margin-right: 18px;
+}
+p {
+    font-size: 20px;
+}
+.imgWeb {
+    width: 270px;
+    height: 170px;
+}
+form {
+    width: 280px
+}
+.english {
+    margin-left: 0px;
+    font-size: 16px;
+}
+.messages {
+    margin-left: 0px;
+    font-size: 16px;
+}
+input {
+    margin-left: 0px;
+    width: 266px;
+}
+textarea {
+    width: 266px;
+}
+.logo {
+    width: 40px;
+}
+#logo {
+    margin-left: 12px;
 }
 }
