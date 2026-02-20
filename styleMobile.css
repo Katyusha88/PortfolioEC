@@ -1,0 +1,232 @@
+@media all and (max-width: 1279px) {
+.wrapper {
+    overflow: hidden;
+    width: 1220px;
+}
+}
+
+@media all and (max-width: 1023px) {
+.wrapper {
+    width: 970px;
+    overflow: hidden;
+}
+.navbar-collapse {
+    font-size: 28px;
+}
+.border-button {
+    margin-left: 160px;
+}
+}
+
+@media all and (max-width: 767px) {
+.wrapper {
+    width: 700px;
+    overflow: hidden;
+}
+.iAm {
+    height: 240px;
+}
+.box {
+    justify-content: center;
+}
+.icons {
+    flex-wrap: wrap;
+}
+form {
+    width: 550px;
+    margin-left: 35px;
+}
+.btn {
+    margin-left: 378px;
+}
+.border-button {
+    margin-left: 20px;
+}
+#logo {
+    margin-top: 12px;
+}
+#connection {
+    margin-left: 15px;
+}
+}
+
+@media all and (max-width: 480px) {
+.wrapper {
+    width: 428px;
+    margin: auto;
+    overflow: hidden;
+}
+.nav-item {
+    margin: 0px;
+}
+.textTwo {
+    margin-left: 56px;
+}
+.box {
+    flex-direction: column;
+}
+#iAm {
+    margin: auto;
+    width: 230px;
+    height: 310px;
+}
+p {
+    font-size: 23px;
+    text-align: justify;
+    margin: 20px;
+}
+#certificate, #resumeRu {
+    margin-right: 20px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill {
+    margin: 10px;
+}
+.imgWeb {
+    width: 400px;
+    height: 230px;
+}
+#questionnaire {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    width: 390px;
+    margin: auto;
+}
+.english {
+    margin-left: 30px;
+    margin-left: 30px;
+}
+input {
+    margin-left: 0px;
+    width: 320px;
+}
+.messages {
+    margin-left: 30px;
+}
+textarea {
+    width: 320px;
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.year {
+    margin: 0;
+    font-size: 16px;
+}
+.russia {
+    margin-left: 30px;
+}
+}
+
+@media all and (max-width: 414px) {
+.wrapper {
+    width: 380px;
+    margin: auto;
+    overflow: hidden;
+}
+.titleText {
+    margin-top: 180px;
+}
+.word {
+    font-size: 44px;
+}
+.textTwo {
+    margin-left: 36px;
+}
+#iAm {
+    width: 220px;
+    height: 280px;
+}
+#certificate, #resume {
+    margin-right: 36px;
+}
+.imgWeb {
+    width: 360px;
+    height: 200px;
+}
+.messages {
+    margin-left: 20px;
+}
+.english {
+    margin-left: 20px;
+}
+form {
+    width: 370px;
+}
+#certificateRu, #resumeRu {
+    margin-right: 50px;
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+}
+.russia {
+    margin-left: 20px;
+}
+}
+
+@media all and (max-width: 320px) {
+.wrapper {
+    width: 280px;
+    overflow: hidden;
+    margin: auto;
+}
+.word {
+    font-size: 36px;
+    margin-left: 5px;
+}
+.textTwo {
+    margin-left: 18px;
+}
+#certificate, #resume {
+    font-size: 20px;
+    margin-right: 18px;
+}
+p {
+    font-size: 18px;
+}
+.imgWeb {
+    width: 270px;
+    height: 170px;
+}
+form {
+    width: 280px
+}
+.english {
+    margin-left: 0px;
+    font-size: 16px;
+}
+.messages {
+    margin-left: 0px;
+    font-size: 16px;
+}
+input {
+    margin-left: 0px;
+    width: 266px;
+}
+textarea {
+    width: 266px;
+}
+.logo {
+    width: 40px;
+}
+#logo {
+    margin-left: 8px;
+}
+.russia {
+    margin-left: 0px;
+    font-size: 16px;
+}
+#certificateRu, #resumeRu {
+    margin-right: 24px;
+    font-size: 16px;
+}
+}

@@ -1,0 +1,314 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    font: normal 75% Arial, Helvetica, sans-serif; 
+}
+.header, .footer, .aboutMe, .title {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    margin: auto;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/* дата создания */
+#year, #contacts, #websiteBox, #application, #aboutMe, #myProjects {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 20px; 
+    font-family: 'Play', sans-serif;
+  }
+  
+/* logo and menu */
+.header, .aboutMe, .projects, footer {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    width: 100%;
+}
+.nav-item {
+    margin: 40px;
+}
+.collapse {
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+}
+.colorGold {
+    color: #ffc107;
+    text-decoration: none;
+}
+.gold {
+    margin-top: 40px;
+    border: #ffc107 2px solid;
+    padding: 10px;
+    border-radius: 70px;
+    text-align: center;
+}
+.colorGold:hover {
+    color: whitesmoke;
+}
+  
+/* Title */
+#particles-js {
+    height: 600px;
+}
+.titleText {
+    position: absolute;
+    margin-top: 250px;
+}
+.word {
+    color: #ffc107;
+    font-size: 50px;
+}
+.textTwo {
+    color: #f1c40f;
+    margin-left: 25px;
+}
+
+/* About me */
+#aboutMe {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Play', sans-serif;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;    
+}
+.boxSm {
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#certificateRu, #resumeRu {
+    margin-right: 100px;
+    border: 2px solid wheat;
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
+#certificate, #resume {
+    margin-right: 100px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.text {
+    max-width: 1000px;
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+#certificate:hover, #resume:hover {
+    color: gold;
+}
+#certificateRu:hover, #resumeRu:hover {
+    color: gold;
+}
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.iAm {
+    margin-right: 100px;
+}
+#iAm {
+    border-radius: 15%;
+    border: whitesmoke solid 2px ;
+    box-shadow: 3px 3px 3px  #ffc107 ;
+    }
+.icons {
+    margin-top: 30px;
+}
+.text div {
+    display: inline-block;
+}
+.skill {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* project */
+.allProjects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.imgWeb {
+    border-radius: 25px;
+}
+
+
+/* contact */
+#questionnaire {
+    display: flex;
+    color: whitesmoke;
+}
+.questionnaire {
+    display: flex;
+    flex-direction: column;
+}
+#connection {
+    margin-left: 38px;
+    padding: 20px;  
+}
+form {
+    border:#ffc107 solid;
+    width: 700px;
+}
+.mails {
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+#email {
+    margin-left: 17px;
+}
+.russia {
+    margin-left: 52px;
+}
+.english {
+    margin-left: 63px;
+}
+.messages {
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+input {
+    margin-left: 18px;
+    width: 300px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+.btn {
+    margin-left: 400px;
+}
+.double-border-button {
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #ffc107;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+.double-border-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+.double-border-button:hover:after {
+    border-color: #f1c40f;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    width: 50%;
+}
+.border-button {
+    position: relative;
+    color: whitesmoke;
+    background: none;
+    font-weight: 300;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.border-button:before, .border-button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+}
+.border-button:before {
+    bottom: 0;
+    left: 0;
+    border-left: 3px solid whitesmoke;
+    border-top: 3px solid whitesmoke;
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+.border-button:after {
+    top: 0;
+    right: 0;
+    border-right: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+}
+.border-button:hover:before, 
+.border-button:hover:after {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.border-button:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+.border-button:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+.border-button:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+/* hr */
+hr {
+    border:  2px solid gold;
+    margin: 10px;
+    width: 95%;
+} 
+
+ /* script */
+.newProject {
+    box-shadow: 0px 0px 15px 15px rgba(245, 245, 245, 0.658);
+    border-radius: 26px;
+}
+    
+  
+  
